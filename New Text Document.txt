@@ -1,0 +1,67 @@
+jis tag ya element pr css apply krni he wo selector he .
+like ham ne p ka taq star kia or phir curly bracket bnai and then declaration se ham css apply krain ge declaration me ak property name hogi or phir value .
+
+css declaration hamesha curly bracket k andar hoti he or har declaration do parts me hi hoti he
+ like vise asy bhi hoskta he he h1 h2 h3 ko bhi ak sth krskty hain
+
+h1,h2,p
+{
+	font-family: arial;
+	colorl: yellow;
+}
+
+href: 
+This specifies the path to the CSS file (which is often placed in a folder called css or styles).
+
+type:
+ This attribute specifies the type of document being linked to. The value should be text/css.
+
+rel:
+ This specifies the relationship between the HTML page and the file it is linked to. The value should be stylesheet when linking to a CSS file.
+
+
+css apply krny ya intigrate krny k teen tareeky hain 
+
+external css
+yani bhr ki file ko html me lgana
+
+internal css
+is me direct ham head me ak style ka tag bnaty hain then us me css krty hain
+
+inline css
+k agr hmain choti mori styling krni ho like vise sirf font size chnge krna he to ham sirf us tag pr inline css aply krty hain
+
+
+
+
+UNIVERSAL SELECTOR
+*
+is se yh hota he k jitny bi html pe elments hain sab pe ak hi css aply hogi jo 
+*{} universal selector me lkhainge
+
+TYPE SELECTOR
+is me ham specific taq ya element ka na btaty hain 
+
+CLASS SELECTOR
+like ham ne likhy 5 h1 or me chta hu k phly or dusry me meri css aply ho 
+jesy k mjhy first waly h1 pe krna he to h1 ke agy class = or koi bhi nam dedjuga
+<h1 class="randomname">
+or ise css me call krny k lia . dot use hota he
+like 
+.randomname
+
+ID SELECTOR
+jesy k mere pas 1000 <p> k tags hain or is me se ksi ak pr css aply krni he to id lgyn ge
+ise call krny k lia # hash use hota he
+
+CHILD SELECTOR
+like ak div me ak or div he or us div me bhi ak div he mgr hmain sirf second waly pe yani child pe css krni he to div>div{} krainge
+
+DECENDANT SELECTOR
+Matches an element that is a descendent of another specified element (not just a direct child of that element)
+
+ADJACENT SIBLING SELECTOR
+jesy k tags hain h1 p p or p or ham likhain ge h1+p to h1 k foran bad wala jo p ayga us pe css apply hogi
+
+GENERAL SIBLING SELECTOR
+jesy k tags hain h1 p p or p or ham likhain ge h1~p to h1 k bad jitny p honge sab pe css apply hogi
